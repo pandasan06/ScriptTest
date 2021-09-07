@@ -14,17 +14,23 @@ public class Test : MonoBehaviour
         array[1] = 50;
         array[0] = 30;
 
-        for (int i = 0; i <5; i++)
+        for (int x = 0; x < 5; x++)
         {
-            Debug.Log(i);
+            Debug.Log(array[x]);
         }
-}
+        for (int y = 4; -1 < y; y--)
+        {
+            Debug.Log(array[y]);
+        }
+    }
+
+
         // Update is called once per frame
-   
-        private void Update()
+
+        void Update()
         {
 
         }
-}
+    }
    
       
